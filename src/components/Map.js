@@ -21,7 +21,7 @@ const Map = ({ eventData, center, zoom }) => {
   return (
     <div className="map">
       <GoogleMapReact
-        bootstrapURLKeys={{ key: `${process.env.REACT_API_WILDFIRE_TRACKER_API}` }}
+        bootstrapURLKeys={{ key: `${process.env.REACT_APP_WILDFIRE_TRACKER_API}` }}
         defaultCenter={ center }
         defaultZoom={ zoom }
       
